@@ -339,7 +339,7 @@ a:hover {
 }
 
 .bg-dark {
-  background-color: #222222 !important;
+  background-color: #432d73 !important;
 }
 
 /* icon */
@@ -909,5 +909,83 @@ blockquote {
 .filter-controls li.active {
   font-weight: bold;
 }
+/********** BEG for table sorter **********/
+table#courses {
+  border-collapse: collapse; /* in inspector mode - easier to see the difference between collapse and no collapse */
+  border: 1px solid #46658c;
+  text-align: center;
+}
+
+table#courses th:nth-child(1),
+table#courses td:nth-child(1) {
+  width: 35%;
+}
+table#courses th:nth-child(2),
+table#courses td:nth-child(2) {
+  width: 30%;
+}
+table#courses th:nth-child(3),
+table#courses td:nth-child(3) {
+  width: 20%;
+}
+table#courses th:nth-child(4),
+table#courses td:nth-child(4) {
+  width: 15%;
+}
+
+table#courses thead {
+  font-family: 'OpenSans';
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+table#courses thead th {
+  color: #fff;
+  background-color: #46658c;
+  padding: 8px;
+}
+table#courses thead th:hover {
+  color: #fff;
+  background-color: #432d73;
+  cursor: pointer;
+}
+
+table#courses thead th.tablesorter-headerAsc,
+table#courses thead th.tablesorter-headerDesc {
+  background-color: #432d73 (0, 102, 102, 0.8);
+}
+
+table#courses tbody {
+  font-family: "OpenSans";
+  font-size: 0.9em;
+  line-height: 15px;
+}
+
+/*** make sure table#courses tbody tr:nth-child(even) defined before table#courses tbody tr:hover */
+/*** otherwise, it would need to define table#courses tbody tr:nth-child(even):hover*/
+table#courses tbody tr:nth-child(even) {
+  background: #f2dfe2 ;
+}
+/********** 
+table#courses tbody tr:nth-child(even):hover {
+  color: #fff;
+  background-color: #339999;
+}
+**********/
+
+table#courses tbody tr:hover {
+  color: #fff;
+  background-color: #432d73;
+}
+table#courses tbody td {
+  padding: 8px 20px;
+  border-top: 1px solid #46658c;
+  border-right: 1px solid #46658c;
+}
+table#courses tbody td img {
+  width: 100px;
+  margin: 0 10px 0 0;
+  border: 1px solid #46658c;
+}
+/********** END for table sorter **********/
 
 /*# sourceMappingURL=maps/style.css.map */
