@@ -989,3 +989,47 @@ table#courses tbody td img {
 /********** END for table sorter **********/
 
 /*# sourceMappingURL=maps/style.css.map */
+
+/********Begin for Dropdown Navbar******/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #432d73;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "OpenSans";
+      text-transform: uppercase;
+      padding: 15px;
+    }
+    .active{
+      font-weight: bold;
+}
+.dropdown-content a:hover {background-color: #f27979;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-submenu {
+  position: relative;
+  max-height:200px;
+  overflow:scroll; 
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
