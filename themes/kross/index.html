@@ -24,6 +24,8 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -57,7 +59,7 @@
                 <li><a tabindex="-1" href="#">Aesir Games Logo</a></li>
                 <li><a tabindex="-1" href="#">NaNoWriMo Postcard</a></li>
                 <li><a tabindex="-1" href="#">Let’s Get Batty Brochure</a></li>
-                <li><a tabindex="-1" href="#">Quarantine Crafting Magazine</a></li>
+                <li><a tabindex="-1" href="quarantine-crafting-page.html">Quarantine Crafting Magazine</a></li>
                 <li><a tabindex="-1" href="#">Typography Process Book</a></li>
                 <li><a tabindex="-1" href="#">US Women’s Lacrosse Magazine Covers</a></li>
                 <li><a tabindex="-1" href="#">HOLES Book Redesign</a></li>
@@ -73,10 +75,15 @@
 </header>
 
 <!-- hero area -->
+
 <section class="hero-area bg-primary" id="parallax">
     <div class="row"></div>
       <div class="col-lg-11 mx-auto">
-        <h1 class="text-white font-tertiary" style="text-align: right;">Hello! I am a<br>graphic designer<br>based in Berkeley</h1>
+        <h1 class="text-white font-tertiary" style="text-align: right; text-shadow: 2px 2px #f27979 ;"><br><br>Hello! I am a<br>graphic designer<br>based in Berkeley<br>
+          <span><a href="https://twitter.com/brittanihope08?lang=en" target="_blank" class="fa fa-twitter"></a></span>
+          <span><a href="http://www.linkedin.com/in/brittanidrost" target="_blank" class="fa fa-linkedin"></a></span>
+          <span></span><a href="https://www.instagram.com/hopebrittani/?hl=en" target="_blank" class="fa fa-instagram"></a></h1></span>
+      </div>
       </div>
     </div>
   </div>
@@ -85,11 +92,35 @@
   </div>
 
   <!-- social icon -->
-  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-    <li class="mb-3"><a class="text-white" href="#"><i class="ti-facebook"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="#"><i class="ti-instagram"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="#"><i class="ti-twitter"></i></a></li>
-  </ul>
+  
+  <style>
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-twitter {
+      color: white;
+    }
+    
+    .fa-linkedin {
+      color: white;
+    }
+   
+    .fa-instagram {
+      color: white;
+    }
+    </style>
+  
   <!-- /social icon -->
 </section>
 <!-- /hero area -->
@@ -109,7 +140,8 @@
     <p class="footer mb-0 text-white">Copyright ©<script>
         var CurrentYear = new Date().getFullYear()
         document.write(CurrentYear)
-      </script> a theme by <a href="https://themefisher.com">themefisher.com</a></p>
+      </script> a theme by <a href="https://themefisher.com">themefisher.com</a>
+      </p>
   </div>
 </footer>
 <!-- /footer -->

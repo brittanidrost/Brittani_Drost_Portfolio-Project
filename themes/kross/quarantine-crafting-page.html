@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Kross | Portfolio Template</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/lightbox.min.css"
+    />
+</head>
+
+<body>
+  
+
+  <header class="navigation fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/bhd-logo.png" alt="Myself" style="width:185px;height:111.95px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <div class="dropdown-content">
+              <a class="test" tabindex="-1" href="portfolio.html">Project List <span class="caret"></span></a>
+                <ul class="dropdown-submenu">
+                  <li><a tabindex="-1" href="made-museum-page.html">THE MADE: Museum Redesign</a></li>
+                  <li><a tabindex="-1" href="#">Office Depot Redesign</a></li>
+                  <li><a tabindex="-1" href="#">Realistic Illustration (Teapot)</a></li>
+                  <li><a tabindex="-1" href="#">Forged Cyber Security Logo</a></li>
+                  <li><a tabindex="-1" href="#">Aesir Games Logo</a></li>
+                  <li><a tabindex="-1" href="#">NaNoWriMo Postcard</a></li>
+                  <li><a tabindex="-1" href="#">Let’s Get Batty Brochure</a></li>
+                  <li><a tabindex="-1" href="quarantine-crafting-page.html">Quarantine Crafting Magazine</a></li>
+                  <li><a tabindex="-1" href="#">Typography Process Book</a></li>
+                  <li><a tabindex="-1" href="#">US Women’s Lacrosse Magazine Covers</a></li>
+                  <li><a tabindex="-1" href="#">HOLES Book Redesign</a></li>
+                  <li><a tabindex="-1" href="#">Royal NIKE Billboard Campaign</a></li>
+                  <li><a tabindex="-1" href="#">THE RITUAL Movie Campaign</a></li>
+                <li class="dropdown-submenu"></ul>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<!-- page title -->
+<section class="page-title bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">Quarantine Crafting<br>Magazine</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  div.scrolling {
+height: 100px;
+overflow: auto;
+padding-left: 50px;
+padding-right: 50px
+}
+</style>
+
+<section class="section pt-5">
+<div class="container">
+  <div class="row">
+<h4>Project Description</h4>
+<div class="scrolling">
+  <p>
+    Quarantine Crafting Magazine was a big undertaking where we were to create covers and spreads of an original editorial design 
+all the way down to the logo. The 2020 shutdown in light of the Alpha variant of COVID-19 was underway at the time of the project, 
+thus I decided to make a magazine to commemorate this unique period in history while also inputting a bit of fun and levity into it 
+where I could. I had friends and family collaborate by providing their own pictures and quotes of what they did to pass the time 
+during lock-down. <br><br>
+The chosen fonts were Bebas Neue Pro and Oswald. The color palette mimics the colors of the washi-tape from my own collection that 
+I used to differentiate the different sections of the magazine. Not only did I design the logo and overall layouts, I also wrote 
+the articles within. It proved to be a therapeutic use of my creative energy during this scary part of 2020.<br><br>
+  </p>
+</div>
+</div>
+</div>
+
+</section>
+<!-- /page title -->
+
+<style>
+  /* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+  /* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+</style>
+<article>
+  <section class="section pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+    <a
+      href="./images/quarantine crafting/quarantine-crafting-mag.png"
+      data-lightbox="magazine"
+      data-title="Mock-Up"
+    >
+      <img
+        src="./images/quarantine crafting/crafting-mag-mock-small.png"
+        alt="Mock-Up"
+        style="width: 300px;"
+      />
+    </a>
+    <a
+      href="./images/quarantine crafting/quarantine-mag-cover.png"
+      data-lightbox="magazine"
+      data-title="Front/Back Covers"
+    >
+      <img
+        src="./images/quarantine crafting/quarantine-cover-small.png"
+        alt="Quarantine Crafting Magazine Covers"
+        style="width: 300px;"
+      />
+    </a>
+    <a
+      href="./images/quarantine crafting/quarantine-spread-1.png"
+      data-lightbox="magazine"
+      data-title="Magazine Spread 1"
+    >
+      <img
+        src="./images/quarantine crafting/quarantine-spread-1-small.png"
+        alt="Magazine Spread 1"
+        style="width: 300px;"
+      />
+    </a>
+    <a
+      href="./images/quarantine crafting/quarantine-spread-2.png"
+      data-lightbox="magazine"
+      data-title="Magazine Spread 2"
+    >
+      <img
+        src="./images/quarantine crafting/quarantine-spread-2-small.png"
+        alt="Magazine Spread 2"
+        style="width: 300px;"
+      />
+    </a>
+    <a
+      href="./images/quarantine crafting/quarantine-spread-3.png"
+      data-lightbox="magazine"
+      data-title="Magazine Spread 3"
+    >
+      <img
+        src="./images/quarantine crafting/quarantine-spread-3-small.png"
+        alt="Magazine Spread 3"
+        style="width: 300px;"
+      />
+    </a>
+    <a
+      href="./images/quarantine crafting/quarantine-spread-4.png"
+      data-lightbox="magazine"
+      data-title="Magazine Spread 4"
+    >
+      <img
+        src="./images/quarantine crafting/quarantine-spread-4-small.png"
+        alt="Magazine Spread 4"
+        style="width: 300px;"
+      />
+    </a>
+    <a
+      href="./images/quarantine crafting/quarantine-spread-5.png"
+      data-lightbox="magazine"
+      data-title="Magazine Spread 5"
+    >
+      <img
+        src="./images/quarantine crafting/quarantine-spread-5-small.png"
+        alt="Magazine Spread 5"
+        style="width: 300px;"
+      />
+    </a>
+    <a
+      href="./images/quarantine crafting/quarantine-spread-6.png"
+      data-lightbox="magazine"
+      data-title="Magazine Spread 6"
+    >
+      <img
+        src="./images/quarantine crafting/quarantine-spread-6-small.png"
+        alt="Magazine Spread 6"
+        style="width: 300px;"
+      />
+    </a>
+  </div>
+</div>
+</article>
+
+
+
+<!-- footer -->
+
+<style>
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #432d73;
+  color: white;
+  }
+</style>
+
+<footer>
+    <p class="footer mb-0 text-white">Copyright ©<script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> a theme by <a href="https://themefisher.com">themefisher.com</a></p>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+<!-- OR using lightbox combin with jquery script -->
+<script
+type="text/JavaScript"
+src="js/lightbox-plus-jquery.min.js"
+></script>
+<!-- OR using lightbox combin with jquery script -->
+</body>
+</html>
